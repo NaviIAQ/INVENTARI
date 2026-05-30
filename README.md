@@ -121,3 +121,34 @@ inventario-final/
 - El catàleg de productes prové del fitxer Excel inclòs al projecte
 - En el pla gratuït de Render, l'aplicació pot trigar uns segons a carregar si ha estat inactiva més de 15 minuts
 - La càmera del mòbil requereix connexió HTTPS (funcionament correcte a Render)
+
+---
+---
+ 
+## 📊 Retorn d'inversió (ROI) — Dades reals
+ 
+### Metodologia de mesura
+ 
+Els temps s'han mesurat en condicions reals al Servei de Transfusions:
+ 
+| Concepte | Mètode en paper | Eina digital |
+|---|---|---|
+| Persones necessàries | 2 infermeres | 1 infermera |
+| Temps per sessió | 45 min × 2 = 90 min | 25 min × 1 = 25 min |
+| Sessions per any | 12 | 12 |
+| Temps total anual | 18 hores | 5 hores |
+| Cost hora brut (infermeria) | ~22 €/h | ~22 €/h |
+| **Cost anual en personal** | **396 €** | **110 €** |
+ 
+### Resum de l'estalvi
+ 
+- ⏱ **Estalvi de temps:** 13 hores anuals
+- 💶 **Estalvi econòmic:** ~286 € anuals en temps de personal
+- 👩‍― **Persones alliberades:** 1 infermera per sessió
+- 💻 **Cost de la solució:** 0 €
+- 📈 **ROI:** immediat des del primer ús
+### Impacte assistencial
+ 
+Més enllà de l'estalvi econòmic, la digitalització permet que **una sola infermera realitzi l'inventari**, alliberant l'altra per atendre tasques assistencials durant el torn de matí — precisament quan hi ha més càrrega de feina al servei.
+ 
+> *Cost horari estimat a partir del conveni col·lectiu d'infermeria. Les dades de temps s'han mesurat en condicions reals al Servei de Transfusions.*
