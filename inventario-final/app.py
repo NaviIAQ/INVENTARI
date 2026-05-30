@@ -53,6 +53,16 @@ stock = {}
 def index():
     return render_template("index.html")
 
+@app.route("/qr")
+def qr():
+    import qrcode
+    url = os.environ.get('RENDER_EXTERNAL_URL', request.host_url).rstrip('/')
+    img = qrcode.make(url)
+    buf = BytesIO()
+    img.save(buf, format="PNG")
+    buf.seek(0)
+    return send_file(buf, mimetype="image/png")
+
 @app.route("/api/producte/<codi>")
 def get_producte(codi):
     codi = codi.replace('.0','')
